@@ -1,9 +1,9 @@
+import './sass/index.scss';
 import RequestPictures from './js/request-to-pixabay-api';
 import LoadMoreImgsBtn from './js/loadMoreImgs';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import './sass/index.scss';
 
 const userRequest = new RequestPictures();
 const loadMoreBtn = new LoadMoreImgsBtn({
