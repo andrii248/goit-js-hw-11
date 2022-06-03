@@ -1,4 +1,3 @@
-import './sass/index.scss';
 import RequestPictures from './js/request-to-pixabay-api';
 import LoadMoreImgsBtn from './js/loadMoreImgs';
 import SimpleLightbox from 'simplelightbox';
